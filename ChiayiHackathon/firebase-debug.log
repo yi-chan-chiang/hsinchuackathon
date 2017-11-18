@@ -1,0 +1,23 @@
+[debug] [2017-11-18T08:21:43.257Z] ----------------------------------------------------------------------
+[debug] [2017-11-18T08:21:43.259Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jackchiang\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-18T08:21:43.260Z] CLI Version:   3.15.2
+[debug] [2017-11-18T08:21:43.260Z] Platform:      win32
+[debug] [2017-11-18T08:21:43.260Z] Node Version:  v9.2.0
+[debug] [2017-11-18T08:21:43.260Z] Time:          Sat Nov 18 2017 16:21:43 GMT+0800 (台北標準時間)
+[debug] [2017-11-18T08:21:43.260Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-18T08:21:43.269Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-18T08:21:43.269Z] > authorizing via signed-in user
+[debug] [2017-11-18T08:21:43.272Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-18T08:21:43.272Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/qofYBJCQE8lyhtTXGXEy6TqDu3w-JE2PrFbkflp2M1M',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Nov 18 2017 16:21:43 GMT+0800 (台北標準時間)
+[debug] [2017-11-18T08:21:43.818Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-18T08:21:43.825Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hsinchuackathon  
+ Sat Nov 18 2017 16:21:43 GMT+0800 (台北標準時間)
+[debug] [2017-11-18T08:21:44.943Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-18T08:21:44.944Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hsinchuackathon/tokens  
+ Sat Nov 18 2017 16:21:44 GMT+0800 (台北標準時間)
